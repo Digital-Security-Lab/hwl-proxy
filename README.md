@@ -79,4 +79,4 @@ The request header whitelist is used to define which header fields should be for
 ]
 ```
 ## License
-[`MIT License`](https://github.com/Digital-Security-Lab/hwl-proxy/blob/main/LICENSE)
+[`MIT License`](https://github.com/Digital-Security-Lab/hwl-proxy/blob/master/LICENSE)
