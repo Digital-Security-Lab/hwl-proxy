@@ -1,0 +1,12 @@
+[{
+    "key": "host"
+}, {
+    "key": "connection",
+    "val": "(?i)(close|keep-alive)"
+}, {
+    "key": "content-length",
+    "val": "\\d+"
+}, {
+    "key": "transfer-encoding",
+    "val": "(?i)(chunked)"
+}]
