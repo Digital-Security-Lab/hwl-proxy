@@ -79,7 +79,7 @@ The request header whitelist is used to define which header fields should be for
 ]
 ```
 ## References
-- Büttner, A., Nguyen, H. V., Gruschka, N., & Iacono, L. L. (2021). Less is Often More: Header Whitelisting as Semantic Gap Mitigation in HTTP-Based Software Systems. In IFIP International Conference on ICT Systems Security and Privacy Protection (pp. 332-347). Springer, Cham. [Link](https://link.springer.com/chapter/10.1007/978-3-030-78120-0_22)
+- Büttner, A., Nguyen, H. V., Gruschka, N., & Lo Iacono, L. (2021). Less is Often More: Header Whitelisting as Semantic Gap Mitigation in HTTP-Based Software Systems. In IFIP International Conference on ICT Systems Security and Privacy Protection (pp. 332-347). Springer, Cham. [Link](https://link.springer.com/chapter/10.1007/978-3-030-78120-0_22)
 
 ## License
 [`MIT License`](https://github.com/Digital-Security-Lab/hwl-proxy/blob/master/LICENSE)
