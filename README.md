@@ -64,7 +64,7 @@ If deployed on an web server, the file may look as follows:
 ```
 
 ## Whitelist configuration
-The request header whitelist is used to define which header fields should be forwarded to the intermediary or web server. It must be specified in a JSON file (default: whitelist.json), which contains an array of `{"key": "", "val": ""}` objects. The value of `key` represents the HTTP request header field name. The `val` parameter is optional and can be used to limit the corresponding HTTP request header field value by a regular expression. If left out, the value can be any value that is compliant with the syntax specified in [`RFC 2730`](https://tools.ietf.org/html/rfc7230). The following is an example for a valid whitelist configuration:
+The request header whitelist is used to define which header fields should be forwarded to the intermediary or web server. It must be specified in a JSON file (default: whitelist.json), which contains an array of `{"key": "", "val": ""}` objects. The value of `key` represents the HTTP request header field name. The `val` parameter is optional and can be used to limit the corresponding HTTP request header field value by a regular expression. If left out, the value can be any value that is compliant with the syntax specified in [`RFC 7230`](https://tools.ietf.org/html/rfc7230). The following is an example for a valid whitelist configuration:
 ```json
 [
     {
